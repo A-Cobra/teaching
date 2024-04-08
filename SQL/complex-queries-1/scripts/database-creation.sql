@@ -1,0 +1,1 @@
+CREATE database `aizen_courses`;

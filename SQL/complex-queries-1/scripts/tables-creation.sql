@@ -1,0 +1,2 @@
+USE `aizen_courses`;
+
