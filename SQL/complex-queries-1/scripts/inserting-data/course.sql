@@ -1,0 +1,21 @@
+INSERT INTO 
+  course (course_id, course_name, department_id, author_id, publish_date, technologies, description, price, category_id) 
+  VALUES 
+  (1, 'Fluid Mechanics', 6, 4, '2017-03-27', 'Physics,Hydraulics', 'This course will teach you how the forced caused by...', 10.99, 30),
+  (2, 'Angular 17.0', 5, 1, '2024-02-15', 'Angular,JavaScript,TypeScript,SCSS,CSS,HTML,...', 'Learn to create business rated apps...', 17.75, 1),
+  (3, 'Introduction to Electronics', 6, 15, '2016-10-14', 'Atom,Electrons,Voltage,Intensity,Resistor', 'Conquer the electric forces caused by elec...', 5.88, 29),
+  (4, 'Financial Accounting', 2, 9, '2023-09-01', 'Accounting,Finance', 'Learn the fundamentals of financial accounting and how to analyze financial statements.', 12.99, 2),
+  (5, 'Python for Data Science', 4, 12, '2022-05-10', 'Python,Pandas,Numpy,Data Analysis,Data Visualization', 'Discover the power of Python for data analysis and learn how to manipulate and visualize data.', 14.99, 18),
+  (6, 'Introduction to Photoshop', 7, 6, '2021-07-18', 'Adobe Photoshop,Graphic Design,Image Editing', 'Master the basics of Adobe Photoshop and learn how to edit and enhance images.', 9.99, 7),
+  (7, 'Yoga for Beginners', 2, 19, '2023-03-05', 'Yoga,Mindfulness,Wellness', 'Start your yoga journey with this beginner-friendly course and improve your flexibility and mindfulness.', 7.99, 8),
+  (8, 'French Language Mastery', 1, 8, '2022-11-28', 'French,Language Learning', 'Become fluent in French with this comprehensive language course that covers vocabulary, grammar, and conversation skills.', 11.99, 13),
+  (9, 'Music Theory Fundamentals', 4, 3, '2021-09-12', 'Music Theory,Composition', 'Build a strong foundation in music theory and learn how to read sheet music, understand scales, and compose melodies.', 9.99, 14),
+  (10, 'High-Intensity Interval Training (HIIT)', 3, 7, '2023-06-20', 'Fitness,Exercise,HIIT', 'Get in shape and burn calories with high-intensity interval training (HIIT) workouts that combine cardio and strength exercises.', 6.99, 15),
+  (11, 'Travel Photography', 2, 10, '2022-03-30', 'Photography,Travel,Composition', 'Capture stunning travel photos with this photography course that covers composition techniques, lighting, and editing.', 13.99, 10),
+  (12, 'Introduction to Machine Learning', 5, 18, '2022-01-05', 'Machine Learning,Python,Data Science', 'Learn the basics of machine learning and explore algorithms such as linear regression, logistic regression, and decision trees.', 15.99, 5),
+  (13, 'Web Design Fundamentals', 1, 2, '2021-04-02', 'Web Design,HTML,CSS,UI/UX', 'Learn the essentials of web design and develop user-friendly websites using HTML, CSS, and UI/UX principles.', 9.99, 1),
+  (14, 'Introduction to Cybersecurity', 5, 14, '2023-10-17', 'Cybersecurity,Network Security,Encryption', 'Gain a basic understanding of cybersecurity concepts, including network security, encryption, and protecting against cyber threats.', 10.99, 19),
+  (15, 'Social Media Marketing Strategies', 7, 5, '2022-07-09', 'Social Media Marketing,Digital Marketing,Content Creation', 'Discover effective social media marketing strategies to grow your online presence, engage with your audience, and drive business results.', 12.99, 20),
+  (16, 'Home Renovation and DIY', 2, 11, '2023-01-28', 'Home Improvement,DIY,Interior Design', 'Learn how to renovate your home and tackle do-it-yourself (DIY) projects with confidence, from painting and tiling to furniture assembly and interior design.', 8.99, 21),
+  (17, 'Parenting Tips and Techniques', 5, 16, '2022-09-03', 'Parenting,Childcare,Child Development', 'Get practical parenting tips and learn effective techniques to navigate different stages of child development and promote positive parent-child relationships.', 9.99, 22),
+  (18, 'Fashion Styling and Personal Image', 4, 13, '2021-12-14', 'Fashion Styling,Personal Image,Fashion Trends', 'Discover your personal style, learn fashion styling techniques, and stay updated with the latest fashion trends.', 11.99, 23)
