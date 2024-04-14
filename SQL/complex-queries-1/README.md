@@ -11,8 +11,24 @@
 
    **Solution:** [Click here to view the solution](./scripts/solutions/1.sql)
 
-**2. Select the author that posted the most courses and is currently active**
+2. **Select the author that posted the most courses and is currently active**
 
-This script needs to take into account that subscriptions do not count towards 'buying' a course.
+   **Description:** This script needs to take into account that subscriptions do not count towards 'buying' a course.
 
-**10. Select the top 3 courses that are not finished the most by students which acquired the course via a subscription. The course has to be filmed by an author that is not active. Additionally, the course has to be from a department that was founded posterior to 2000**
+   <details>
+     <summary><i>Hint</i></summary>
+     <p>You can use joins or subqueries for this exercise.</p>
+   </details>
+
+   **Solution:** [Click here to view the solution](./scripts/solutions/2.sql)
+
+3. **Select the top 3 courses that are not finished the most by students which acquired the course via a subscription. The course has to be filmed by an author that is not active. Additionally, the course has to be from a department that was founded posterior to 2000**
+
+   **Description:** NOT NEEDED
+
+   <details>
+     <summary><i>Hint</i></summary>
+     <p>You can use multiple joins, subqueries, or CTAs for this exercise.</p>
+   </details>
+
+   **Solution:** [Click here to view the solution](./scripts/solutions/3.sql)
