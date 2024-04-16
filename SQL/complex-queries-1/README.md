@@ -1,6 +1,6 @@
 # Questions and answers
 
-1. **Select the top 5 customers sorted in descending order by their last name who bought the Angular course**
+1. **Select the top 5 customers sorted in descending order by their last name who bought the Fashion Styling... course**
 
    **Description:** This query should consider that subscriptions do not count towards 'buying' a course.
 
