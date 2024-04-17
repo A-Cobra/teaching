@@ -16,6 +16,7 @@
 SELECT *
 FROM students_without_subscription s
 JOIN course_student cs ON s.student_id = cs.student_id
-JOIN course c ON c.course_id = cs.course_id;  
-
-Fashion Styling
+JOIN course c ON c.course_id = cs.course_id
+WHERE c.course_name LIKE '%Fashion Styling%'
+ORDER BY s.student_last_name DESC
+LIMIT 5;
