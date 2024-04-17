@@ -6,7 +6,7 @@ INSERT INTO course_student (course_id, student_id, enrollment_date, is_completed
   (18, 17, '2023-06-19', true),
   (9, 17, '2024-02-11', false),
   (9, 20, '2023-05-05', false),
-  (18, 15, '2021-11-08', true),
+  (18, 15, '2021-11-08', false),
   (18, 12, '2022-04-03', true),
   (8, 3, '2022-06-10', true),
   (10, 9, '2023-03-18', false),

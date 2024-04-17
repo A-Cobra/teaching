@@ -22,7 +22,7 @@
 
    **Solution:** [Click here to view the solution](./scripts/solutions/2.sql)
 
-3. **Select the top 3 courses that are not finished the most by students which acquired the course via a subscription. The course has to be filmed by an author that is not active. Additionally, the course has to be from a department that was founded posterior to 2000**
+3. **Select the top 3 courses that are not finished the most by students which acquired the course via a subscription. The course has to be filmed by an author that is active. Additionally, the course has to be from a department that was founded prior to 2010**
 
    **Description:** NOT NEEDED
 
