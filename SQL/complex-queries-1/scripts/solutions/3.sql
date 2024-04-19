@@ -28,7 +28,8 @@ active_authors AS (
   SELECT * FROM author
   WHERE is_active = TRUE
 )
-SELECT * FROM student s
+SELECT c.course_id, c.course_name, COUNT(c.course_name) AS course_count
+FROM student s
 JOIN student_subscription ss 
 ON ss.student_id = s.student_id
 JOIN course_student cs 
@@ -39,4 +40,7 @@ JOIN active_authors aa
 ON aa.author_id = c.author_id
 JOIN dept_prior_2010 dept 
 ON dept.department_id = c.department_id
-WHERE cs.is_completed = FALSE;
+WHERE cs.is_completed = FALSE
+GROUP BY c.course_id, c.course_name
+ORDER BY course_count DESC
+LIMIT 3;
