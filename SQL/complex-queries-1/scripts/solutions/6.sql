@@ -1,7 +1,22 @@
--- List the departments that have at least one course published in the last 6 months
+-- Select the top 5 customers sorted in descending order by their last name who bought the Fashion Styling... course
 
-SELECT c.course_id, c.course_name, d.department_id, d.department_name, c.publish_date, CURRENT_DATE current_date 
-FROM course c
-JOIN department d 
-ON c.department_id = d.department_id 
-WHERE c.publish_date >= current_date - INTERVAL '6 months';
+-- CREATE VIEW students_without_subscription as 
+-- SELECT * FROM student WHERE 
+-- student_id NOT IN (
+--   SELECT student_id FROM student_subscription
+-- );
+
+
+-- CREATE VIEW students_with_subscription as 
+-- SELECT * FROM student WHERE 
+-- student_id IN (
+--   SELECT student_id FROM student_subscription
+-- );
+
+SELECT *
+FROM students_without_subscription s
+JOIN course_student cs ON s.student_id = cs.student_id
+JOIN course c ON c.course_id = cs.course_id
+WHERE c.course_name LIKE '%Fashion Styling%'
+ORDER BY s.student_last_name DESC
+LIMIT 5;
