@@ -10,6 +10,7 @@
    </details>
 
    **Solution:** [Click here to view the solution](./scripts/solutions/1.sql)
+   
 
 2. **List the departments that have at least one course published in the last 6 months**
 
@@ -21,6 +22,8 @@
    </details>
 
    **Solution:** [Click here to view the solution](./scripts/solutions/2.sql)
+
+   **Results:** [Click here to view the query results](./results/query2_results.png)
 
 3. **List the authors who have published courses in multiple categories.**
 
@@ -66,6 +69,8 @@
 
    **Solution:** [Click here to view the solution](./scripts/solutions/6.sql)
 
+   **Results:** [Click here to view the query results](./results/query6_results.png)
+
 7. **Find the author with the highest total revenue from course sales.**
 
    **Description:** Subscriptions do not count directly to author revenues
@@ -76,6 +81,8 @@
    </details>
 
    **Solution:** [Click here to view the solution](./scripts/solutions/7.sql)
+
+   **Results:** [Click here to view the query results](./results/query7_results.png)
 
 8. **List the top 4 categories with the highest average course price.**
 
