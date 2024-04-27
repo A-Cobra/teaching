@@ -10,6 +10,8 @@
    </details>
 
    **Solution:** [Click here to view the solution](./scripts/solutions/1.sql)
+
+      **Results:** [Click here to view the query results](./results/query1_results.png)
    
 
 2. **List the departments that have at least one course published in the last 6 months**
@@ -57,6 +59,8 @@
    </details>
 
    **Solution:** [Click here to view the solution](./scripts/solutions/5.sql)
+
+      **Results:** [Click here to view the query results](./results/query5_results.png)
 
 6. **Select the top 5 customers sorted in descending order by their last name who bought the Fashion Styling... course**
 
@@ -150,6 +154,8 @@
 
     **Solution:** [Click here to view the solution](./scripts/solutions/13.sql)
 
+       **Results:** [Click here to view the query results](./results/query13_results.png)
+
 14. **Select the top 3 courses that are not finished the most by students which acquired the course via a subscription. The course has to be filmed by an author that is active. Additionally, the course has to be from a department that was founded prior to 2010**
 
     **Description:** NOT NEEDED
@@ -163,5 +169,7 @@
     </details>
 
     **Solution:** [Click here to view the solution](./scripts/solutions/14.sql)
+
+    **Results:** [Click here to view the query results](./results/query14_results.png)
 
     **For explanations** visit [Scizen](https://www.youtube.com/@SciZenAI) on YouTube
